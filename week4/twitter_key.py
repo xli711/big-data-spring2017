@@ -1,2 +1,2 @@
-api_key = "put your api key here between the quotes"
-api_secret = "put your secret key here between the quotes"
+api_key = "aBi2GkGpUAVU7V8dWnr8Muon9"
+api_secret = "pbxXsFlh9zfzQlz8BcIuXrBrSDxvSpF3FaUjgNlWboBkmzMc0E"
