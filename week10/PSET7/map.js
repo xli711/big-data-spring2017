@@ -62,13 +62,13 @@ var svg = d3.select("#map-svg")
       document.getElementById("range").innerHTML=years[value];
       inputValue = years[value];
       d3.selectAll(".states")
-            .attr("fill", function(d){yearMatch(d, value);} );
+            .attr("fill", function(d){return yearMatch(d, value);});
   }
 
   function yearMatch(data, value){
     var results = [data.properties.elect2000, data.properties.elect2004, data.properties.elect2008, data.properties.elect2012, data.properties.elect2016];
     var propertyValue = results[value];
-    console.log(color(propertyValue));
+    
     return color(propertyValue);
     
   }
